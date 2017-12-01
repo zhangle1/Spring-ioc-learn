@@ -1,0 +1,3 @@
+rootProject.name = 'spring-ioc-learn'
+include 'core'
+
