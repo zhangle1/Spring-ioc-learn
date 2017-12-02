@@ -1,3 +1,6 @@
 rootProject.name = 'spring-ioc-learn'
 include 'core'
+include 'context'
+include 'jcl'
+include 'bean'
 

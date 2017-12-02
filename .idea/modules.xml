@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bean/bean.iml" filepath="$PROJECT_DIR$/.idea/modules/bean/bean.iml" group="bean" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bean/bean_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bean/bean_main.iml" group="bean" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bean/bean_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bean/bean_test.iml" group="bean" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/context/context.iml" filepath="$PROJECT_DIR$/.idea/modules/context/context.iml" group="context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/context/context_main.iml" filepath="$PROJECT_DIR$/.idea/modules/context/context_main.iml" group="context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/context/context_test.iml" filepath="$PROJECT_DIR$/.idea/modules/context/context_test.iml" group="context" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jcl/jcl.iml" filepath="$PROJECT_DIR$/.idea/modules/jcl/jcl.iml" group="jcl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jcl/jcl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jcl/jcl_main.iml" group="jcl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jcl/jcl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jcl/jcl_test.iml" group="jcl" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-ioc-learn.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-ioc-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-ioc-learn_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-ioc-learn_main.iml" group="spring-ioc-learn" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-ioc-learn_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-ioc-learn_test.iml" group="spring-ioc-learn" />

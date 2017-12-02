@@ -2,6 +2,7 @@ package com.zhangle.core.io;
 
 
 import com.zhangle.lang.Nullable;
+import com.zhangle.utils.ResourceUtils;
 
 /**
  * Strategy interface for loading resources (e.. class path or file system
@@ -12,7 +13,7 @@ import com.zhangle.lang.Nullable;
 public interface ResourceLoader {
 
     /** Pseudo URL prefix for loading from the class path: "classpath:" */
-//    String CLASSPATH_URL_PREFIX = ResourceUtils.CLASSPATH_URL_PREFIX;
+    String CLASSPATH_URL_PREFIX = ResourceUtils.CLASSPATH_URL_PREFIX;
 
 
     /**
