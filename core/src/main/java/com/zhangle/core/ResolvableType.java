@@ -19,7 +19,12 @@ package com.zhangle.core;
 
 
 import com.zhangle.lang.Nullable;
-import com.zhangle.utils.ConcurrentReferenceHashMap;
+import com.zhangle.utils.*;
+
+
+import com.zhangle.core.SerializableTypeWrapper.FieldTypeProvider;
+import com.zhangle.core.SerializableTypeWrapper.MethodParameterTypeProvider;
+import com.zhangle.core.SerializableTypeWrapper.TypeProvider;
 
 import java.io.Serializable;
 import java.lang.reflect.*;
@@ -90,7 +95,7 @@ public class ResolvableType implements Serializable {
 	 * Optional provider for the type.
 	 */
 	@Nullable
-	private final TypeProvider typeProvider;
+	private final SerializableTypeWrapper.TypeProvider typeProvider;
 
 	/**
 	 * The {@code VariableResolver} to use or {@code null} if no resolver is available.

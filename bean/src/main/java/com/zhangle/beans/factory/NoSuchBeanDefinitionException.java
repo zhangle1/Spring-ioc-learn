@@ -18,6 +18,7 @@ package com.zhangle.beans.factory;
 
 
 import com.zhangle.beans.BeansException;
+import com.zhangle.core.ResolvableType;
 import com.zhangle.lang.Nullable;
 
 /**
